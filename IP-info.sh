@@ -11,7 +11,7 @@ pkg install curl -y &> /dev/null
 echo -e $G
 figlet IP I N F O
 echo
-echo -e "$Rl\b    ==[$Bl \bIP-info  version 1.0$Rl\b]=="
+echo -e "$Rl\b    ==[$Bl \bIP-info  version 1.0 $Rl\b]=="
 echo -e "$Rl\b  ===[$Bl \bEdit Code by:IVAN DARK$Rl\b]==="
 echo
 if [ $1 ]
