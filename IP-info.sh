@@ -33,6 +33,11 @@ echo -e "$G${names[count]}: $W$get" | cut -d ',' -f1
 count=$[$count + 1]
 if [ $count -eq 12 ]
 then
+if [ $loc == "null,null" ]
+then
+echo
+exit 0
+fi
 echo -e "$G\bLocation:$W http://www.google.com/maps/place/$loc/@$loc,16z"
 echo
 exit 0
