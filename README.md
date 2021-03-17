@@ -16,4 +16,4 @@ How to run:
 
 cd IP-info
 
-bash IP-info.sh
+bash IP-info.sh (ip address)
