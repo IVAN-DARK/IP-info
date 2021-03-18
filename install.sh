@@ -5,6 +5,7 @@ Bl="\033[1;34m" # Blue
 G="\033[1;32m" # Green
 W="\033[1;37m" # Whit
 n="se"
+echo
 echo -e "$Bl[~]$G \bInstalling IP-info..."
 pkg install figlet -y &> /dev/null
 pkg install jq -y &> /dev/null
@@ -32,5 +33,5 @@ echo -e "$W \bIP-info 'the ip'"
 echo -e "$R \b###############"
 echo -e "$R \bThanks for useing IP-info ^_^"
 echo -e "$R \bEdite code by: {$W \bIVAN DARK$R}"
-
+echo
 
