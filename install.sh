@@ -31,7 +31,7 @@ echo
 echo -e "$R \bNow you can run the tool with this way:"
 echo -e "$W \bIP-info 'the ip'"
 echo -e "$R \bTo uninstall the tool:"
-echo -e "$W \bbash uninstall.sh
+echo -e "$W \bbash uninstall.sh"
 echo -e "$R \b###############"
 echo -e "$R \bThanks for useing IP-info ^_^"
 echo -e "$R \bEdite code by: {$W \bIVAN DARK$R}"
