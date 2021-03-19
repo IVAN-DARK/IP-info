@@ -2,6 +2,7 @@
 ##########
 R="\033[1;31m"  #Red
 Bl="\033[1;34m" # Blue
+P="\033[0;35m" # Purple
 G="\033[1;32m" # Green
 W="\033[1;37m" # Whit
 n="se"
@@ -28,12 +29,12 @@ chmod +x /data/data/com.termux/files/usr/bin/IP-info
 
 echo -e "$Bl[+]$G \bInstalling complete ^_^ ✓"
 echo
-echo -e "$R \bNow you can run the tool with this way:"
+echo -e "$P \bNow you can run the tool with this way:"
 echo -e "$W \bIP-info 'the ip'"
-echo -e "$R \bTo uninstall the tool:"
+echo -e "$L \bTo uninstall the tool:"
 echo -e "$W \bbash uninstall.sh"
-echo -e "$R \b###############"
-echo -e "$R \bThanks for useing IP-info ^_^"
-echo -e "$R \bEdite code by: {$W \bIVAN DARK$R}"
+echo -e "$P \b###############"
+echo -e "$P \bThanks for useing IP-info ^_^"
+echo -e "$P \bEdite code by: {$W \bIVAN DARK$R}"
 echo
 
