@@ -22,4 +22,4 @@ cd IP-info
 
 bash install.sh
 
-IP-info 'ip'
+IP-info ip
