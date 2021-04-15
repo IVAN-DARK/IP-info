@@ -1,6 +1,10 @@
 # IP-info
-A tool that collects information from IP address
+A tool that collects information about IP address
 
+# Screen
+![Imag Of IPInfo](https://i.ibb.co/SRcgq3R/IMG.jpg)
+
+# Install and Run
 How to install:
 
 apt update
