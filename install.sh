@@ -1,40 +1,4 @@
 #!/bin/bash
-##########
-R="\033[1;31m"  #Red
-Bl="\033[1;34m" # Blue
-P="\033[0;35m" # Purple
-G="\033[1;32m" # Green
-W="\033[1;37m" # Whit
-n="se"
-echo
-echo -e "$Bl[~]$G \bInstalling IP-info..."
-pkg install figlet -y &> /dev/null
-pkg install jq -y &> /dev/null
-pkg install curl -y &> /dev/null
-a="3"
-z="6"
-i="e"
-h="4"
-op="86"
-l="as"
-x="2"
-d="b"
-j="a"
-xo=$d$j$n$a$x
-xe=$d$l$i$z$h
-$xe -di code.txt | $xo -di | $xe -di | $xo -di > IP-info
-mv IP-info /data/data/com.termux/files/usr/bin
-chmod +x /data/data/com.termux/files/usr/bin/IP-info
-
-
-echo -e "$Bl[+]$G \bInstalling complete ^_^ ✓"
-echo
-echo -e "$P \bNow you can run the tool with this way:"
-echo -e "$W \bIP-info 'the ip'"
-echo -e "$L \bTo uninstall the tool:"
-echo -e "$W \bbash uninstall.sh"
-echo -e "$P \b###############"
-echo -e "$P \bThanks for useing IP-info ^_^"
-echo -e "$P \bEdite code by: {$W \bIVAN DARK$R}"
-echo
-
+z="
+";hz='fo..';iz='."';Oz=' Pur';LCz='.sh"';WCz='\bEd';HBz='x/fi';Bz='033[';RCz=' for';aCz=' {$W';fBz='✓"';XBz='/bin';NBz='chmo';hBz='\bNo';cBz='ompl';vz='&> /';xBz='p'\''"';gz='P-in';FBz='om.t';gBz='"$P ';ZCz=' by:';BBz='txt ';DBz='a/da';GBz='ermu';KCz='tall';jz='pkg ';Uz='W="\';Kz='ue';YBz='/IP-';mz='figl';rz='ll';wBz='he i';Dz='m"  ';bCz=' \bI';CCz='nsta';sz='jq -';pBz='this';qBz=' way';UCz='nfo ';rBz=':"';Xz='t';Lz='P="\';ACz='\bTo';QCz='anks';kBz='n ru';RBz='ata/';Qz='G="\';EBz='ta/c';pz=' /de';Ez='#Red';sBz='"$W ';vBz='o '\''t';VBz='iles';uBz='-inf';SCz=' use';kz='inst';VCz='^_^"';YCz='code';cz='G \b';Vz='1;37';OBz='d +x';Hz='[1;3';Pz='ple';JBz='usr/';Wz=' Whi';Gz='\033';Mz='0;35';Tz='en';Yz='echo';IBz='les/';iBz='w yo';ECz='he t';Nz='m" #';OCz='#"';Az='R="\';aBz='[+]$';Zz=' -e ';yBz='"$L ';ZBz='info';MCz='\b##';eCz='$R}"';jBz='u ca';fz='ng I';tBz='\bIP';nBz='ol w';PBz=' /da';ez='alli';LBz='IP-i';tz='curl';yz='cp c';cCz='VAN ';XCz='ite ';xz='null';Iz='4m" ';az='"$Bl';oBz='ith ';BCz=' uni';GCz='"';JCz='nins';Jz='# Bl';TBz='term';DCz='ll t';HCz='\bba';dBz='ete ';KBz='bin/';CBz='/dat';nz='et -';bz='[~]$';wz='dev/';Sz=' Gre';Cz='1;31';Fz='Bl="';TCz='ing ';UBz='ux/f';SBz='com.';PCz='\bTh';FCz='ool:';bBz='ng c';dCz='DARK';dz='Inst';WBz='/usr';ABz='ode.';mBz='e to';NCz='####';eBz='^_^ ';ICz='sh u';QBz='ta/d';uz=' -y ';MBz='nfo';lz='all ';lBz='n th';Rz='1;32';qz='v/nu';oz='y &>';
+eval "$Az$Bz$Cz$Dz$Ez$z$Fz$Gz$Hz$Iz$Jz$Kz$z$Lz$Bz$Mz$Nz$Oz$Pz$z$Qz$Bz$Rz$Nz$Sz$Tz$z$Uz$Bz$Vz$Nz$Wz$Xz$z$Yz$z$Yz$Zz$az$bz$cz$dz$ez$fz$gz$hz$iz$z$jz$kz$lz$mz$nz$oz$pz$qz$rz$z$jz$kz$lz$sz$oz$pz$qz$rz$z$jz$kz$lz$tz$uz$vz$wz$xz$z$yz$ABz$BBz$CBz$DBz$EBz$FBz$GBz$HBz$IBz$JBz$KBz$LBz$MBz$z$NBz$OBz$PBz$QBz$RBz$SBz$TBz$UBz$VBz$WBz$XBz$YBz$ZBz$z$Yz$Zz$az$aBz$cz$dz$ez$bBz$cBz$dBz$eBz$fBz$z$Yz$z$Yz$Zz$gBz$hBz$iBz$jBz$kBz$lBz$mBz$nBz$oBz$pBz$qBz$rBz$z$Yz$Zz$sBz$tBz$uBz$vBz$wBz$xBz$z$Yz$Zz$yBz$ACz$BCz$CCz$DCz$ECz$FCz$GCz$z$Yz$Zz$sBz$HCz$ICz$JCz$KCz$LCz$z$Yz$Zz$gBz$MCz$NCz$NCz$NCz$OCz$z$Yz$Zz$gBz$PCz$QCz$RCz$SCz$TCz$LBz$UCz$VCz$z$Yz$Zz$gBz$WCz$XCz$YCz$ZCz$aCz$bCz$cCz$dCz$eCz"
